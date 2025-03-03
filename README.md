@@ -1,3 +1,9 @@
 # Frontend Mentor - Social links profile
 
-![Design preview for the Social links profile coding challenge](./preview.jpg)
+### 결과물
+
+![Design preview for the Social links profile coding challenge](./assets/images/resultImg.png)
+
+### 피드백
+
+Our reporter did not find any issues in this project! 🎉
