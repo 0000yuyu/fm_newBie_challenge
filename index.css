@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url(./assets/fonts/static/Inter-Bold.ttf) format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'MyFont';
+  src: url(./assets/fonts/static/Inter-semiBold.ttf) format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url(./assets/fonts/static/Inter-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.main__container {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile__section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.profile__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.profile__detail {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+.profile__name {
+  margin: 0;
+  font-family: 'MyFront', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.profile__address {
+  font-family: 'MyFront', sans-serif;
+  color: hsl(75, 94%, 57%);
+  font-weight: 700;
+  font-size: 9px;
+}
+.profile__summary {
+  font-family: 'MyFront', sans-serif;
+  margin: 0;
+  opacity: 0.7;
+  font-size: 9px;
+  font-weight: 400;
+}
+.link__section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.link__button {
+  font-family: 'MyFront', sans-serif;
+  width: 190px;
+  height: 30px;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 9px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+}
+.link__button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+.attribution {
+  margin-top: 20px;
+}
